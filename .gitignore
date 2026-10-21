@@ -1,0 +1,35 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Private inputs and generated results
+*.csv
+*.xls
+*.xlsx
+*.pdf
+*.ipynb
+uploads/
+data/
+outputs/
+attachments/
+
+# Local logs and editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
